@@ -3,7 +3,7 @@
 
 import argparse
 
-from SAR_lib_alt import SAR_Indexer
+from SAR_lib import SAR_Indexer
 
 if __name__ == "__main__":
 

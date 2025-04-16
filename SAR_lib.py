@@ -8,7 +8,7 @@ from typing import Optional, List, Union, Dict
 import pickle
 import numpy as np
 import nltk
-from scipy.spatial import KDTree
+
 
 ## UTILIZAR PARA LA AMPLIACION
 if False:
@@ -225,7 +225,7 @@ class SAR_Indexer:
         
         """
         print(f"Creating kdtree {len(self.embeddings)}...", end="")
-	self.kdtree = KDTree(self.embeddings)
+        self.kdtree = KDTree(self.embeddings)
         print("done!")
 
 
